@@ -1,0 +1,5 @@
+LDA 0x0000
+SZA
+CMA
+HLT
+A:.data 1 0

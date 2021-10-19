@@ -1,0 +1,14 @@
+INP
+STA A
+INP 
+CMA
+INC
+STA B
+CLA
+L1:ADD A
+ISZ B
+BUN L1
+OUT
+HLT
+A:.data 1 0
+B:.data 1 0
